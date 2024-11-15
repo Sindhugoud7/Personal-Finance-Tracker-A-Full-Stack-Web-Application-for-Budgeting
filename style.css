@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e6f5; /* Light Violet */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #8a2be2; /* Violet */
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid #8a2be2; /* Violet Border */
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #6a0dad; /* Dark Orchid Violet Border on focus */
+}
+
+button {
+    background-color: #8a2be2; /* Violet */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7a1c9a; /* Darker Violet on hover */
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #8a2be2; /* Violet Border */
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: #6a0dad; /* Dark Orchid Violet */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6a0dad; /* Dark Orchid Violet */
+    font-size: 2em;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input, button {
+    width: 200px;
+    font-size: 1.1em;
+}
+
+input[type="number"] {
+    width: 150px;
+}
+
+button {
+    width: 220px;
+    background-color: #8a2be2; /* Violet */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #7a1c9a; /* Darker Violet on hover */
+}
+
+#summaryBox {
+    background-color: #f0e6f7; /* Light Purple */
+    border: 2px solid #8a2be2; /* Violet Border */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#summaryBox p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+}
